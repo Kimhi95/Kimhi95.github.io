@@ -1,11 +1,11 @@
 ---
-title: "Work"
-layout: category
-permalink: /work
+title: "Categories"
+layout: categories
+permalink: /categories
 author_profile: true
 sidebar:
   nav: "sidebar-category"
 ---
 
-{% assign posts = site.categories.work %}
+{% assign posts = site.categories %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: "Study"
-layout: archive
-permalink: /Study
+layout: category
+permalink: /study
 author_profile: true
 sidebar:
   nav: "sidebar-category"

@@ -1,14 +1,16 @@
 # main links
 main:
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: "/tags"
   - title: "About"
     url: /about/
 
 sidebar-category:
   - title: "Category"
     children:
-      - title: "Work"
-        url: "/Work"
-      - title: "Study"
-        url: "/Study"
-      - title: "Tags"
-        url: "/tags"
+      - title: "study"
+        url: "/study"
+      - title: "work"
+        url: "/work"
