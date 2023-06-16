@@ -114,7 +114,7 @@ author:
       # url: "mindalter12@naver.com/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://Kimhi95.github.io"
+      # url: "https://Kimhi95.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -283,3 +283,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+      nav: "sidebar-category"
