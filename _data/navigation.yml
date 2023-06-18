@@ -10,6 +10,8 @@ main:
 sidebar-category:
   - title: "Category"
     children:
+      - title: "chat"
+        url: "/chat"
       - title: "study"
         url: "/study"
       - title: "work"
