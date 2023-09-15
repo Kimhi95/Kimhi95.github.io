@@ -12,8 +12,11 @@ sidebar:
 ```js
 function test() {
   return new Promise((resolve, reject) => {
-    resolve();
-    reject();
+    if (true) {
+      resolve();
+    } else {
+      reject();
+    }
   });
 }
 
@@ -23,6 +26,9 @@ test()
   })
   .catch((error) => {
     error;
+  })
+  .finally(() => {
+    "finally";
   });
 ```
 
@@ -38,15 +44,18 @@ resolve() 안에 들어간 값을 result로 반환함
 catch는 reject를 사용하기 위해 사용함
 reject() 안에 들어간 값을 error로 반환함
 
-============================================
+# finally는 성공, 실패에 상관없이 작업이 끝나면 항상 실행됨
 
 2. Promise.all()
 
 ```js
 function test() {
   return new Promise((resolve, reject) => {
-    resolve();
-    reject();
+    if(true){
+      resolve();
+    }else{
+      reject();
+    }
   });
 }
 
@@ -58,9 +67,11 @@ for(let i = 1; i < 10; i++){
 
 Promise.all(promises)
   .then(results => {
-    results
+    results;
   }).catch(error => {
-    error
+    error;
+  }).finally(() => {
+    "finally";
   });
 ```
 
