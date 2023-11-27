@@ -9,9 +9,9 @@ sidebar:
 
 ## 2023-09
 
-- 급수관리 - S
+- Water - Start
 
-- 풍력발전 - E
+- Wind - End
 
 - 수습 기간 끝, 정직 전환
 
