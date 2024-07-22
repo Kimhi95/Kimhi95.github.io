@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Water 추가 담당업무"
+title: "dailyReport 담당업무"
 categories: work
 tags: assignedTask
 sidebar:
