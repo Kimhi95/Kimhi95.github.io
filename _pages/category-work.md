@@ -1,7 +1,7 @@
 ---
 title: "업무"
 layout: category
-permalink: /업무
+permalink: /work
 author_profile: true
 sidebar:
   nav: "sidebar-category"

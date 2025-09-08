@@ -1,7 +1,7 @@
 ---
 title: "공부"
 layout: category
-permalink: /공부
+permalink: /study
 author_profile: true
 sidebar:
   nav: "sidebar-category"

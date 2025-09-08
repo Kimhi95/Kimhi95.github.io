@@ -1,7 +1,7 @@
 ---
 title: "개발"
 layout: category
-permalink: /개발
+permalink: /dev
 author_profile: true
 sidebar:
   nav: "sidebar-category"
