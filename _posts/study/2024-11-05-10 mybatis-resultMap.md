@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "resultMap 단점"
-categories: 공부
+categories: study
 tags: mybatis
 sidebar:
   nav: "sidebar-category"

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Promise"
-categories: 공부
+categories: study
 tags: javascript
 sidebar:
   nav: "sidebar-category"

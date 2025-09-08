@@ -10,11 +10,11 @@ main:
 sidebar-category:
   - title: "Category"
     children:
-      - title: "잡담"
+      - title: "chat"
         url: "/chat"
-      - title: "공부"
+      - title: "study"
         url: "/study"
-      - title: "업무"
+      - title: "work"
         url: "/work"
-      - title: "개발"
+      - title: "dev"
         url: "/dev"

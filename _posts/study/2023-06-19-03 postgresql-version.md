@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "postgresql 경로 설정"
-categories: 공부
+categories: study
 tags: linux postgresql
 sidebar:
   nav: "sidebar-category"

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Water 추가 담당업무"
-categories: 업무
+categories: work
 tags: assignedTask
 sidebar:
   nav: "sidebar-category"

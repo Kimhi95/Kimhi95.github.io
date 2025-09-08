@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "js의 defer async"
-categories: 공부
+categories: study
 tags: javascript
 sidebar:
   nav: "sidebar-category"

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "resultMap 사용시 어노테이션"
-categories: 공부
+categories: study
 tags: mybatis, lombok
 sidebar:
   nav: "sidebar-category"
