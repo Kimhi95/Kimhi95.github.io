@@ -1,0 +1,82 @@
+.flatpickr-year-selector {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.flatpickr-calendar:has(.flatpickr-year-selector) .flatpickr-months,
+.flatpickr-calendar:has(.flatpickr-year-selector) .flatpickr-days,
+.flatpickr-calendar:has(.flatpickr-year-selector) .flatpickr-weekdays,
+.flatpickr-calendar:has(.flatpickr-year-selector) .flatpickr-time {
+    display: none !important;
+}
+
+.year-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    max-width: 290px;
+}
+
+.year-item {
+    padding: 8px 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+.year-item:hover {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.year-item.today {
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.year-item.selected {
+    background-color: #2196f3;
+    color: white;
+    border-color: #1976d2;
+}
+
+.year-item.range-start {
+    background-color: #2196f3;
+    color: white;
+    border-radius: 4px 0 0 4px;
+}
+
+.year-item.range-end {
+    background-color: #2196f3;
+    color: white;
+    border-radius: 0 4px 4px 0;
+}
+
+.year-item.in-range {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+}
+
+/* 어두운 테마 */
+.flatpickr-calendar.dark .year-item {
+    color: #fff;
+}
+
+.flatpickr-calendar.dark .year-item:hover {
+    background-color: #424242;
+}
+
+.flatpickr-calendar.dark .year-item.selected,
+.flatpickr-calendar.dark .year-item.range-start,
+.flatpickr-calendar.dark .year-item.range-end {
+    background-color: #ff5722;
+}
+
+.flatpickr-calendar.dark .year-item.in-range {
+    background-color: #424242;
+    border-color: #ff5722;
+}
