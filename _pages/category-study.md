@@ -1,5 +1,5 @@
 ---
-title: "Study"
+title: "공부"
 layout: category
 permalink: /study
 author_profile: true
@@ -7,5 +7,5 @@ sidebar:
   nav: "sidebar-category"
 ---
 
-{% assign posts = site.categories.study %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+<!-- {% assign posts = site.categories.study %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %} -->
