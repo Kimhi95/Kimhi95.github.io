@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "개발"
 layout: category
 permalink: /dev
 author_profile: true
