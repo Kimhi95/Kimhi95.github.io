@@ -1,7 +1,7 @@
 ---
 title: "잡담"
 layout: category
-permalink: /chat
+permalink: /잡담
 author_profile: true
 sidebar:
   nav: "sidebar-category"
