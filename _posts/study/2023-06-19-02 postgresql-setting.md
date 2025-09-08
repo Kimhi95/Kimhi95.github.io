@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "postgresql 기본 설정"
-categories: study
+categories: 공부
 tags: linux postgresql
 sidebar:
   nav: "sidebar-category"

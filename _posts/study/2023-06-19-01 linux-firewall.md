@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Linux 특정 포트 열기"
-categories: study
+categories: 공부
 tags: linux postgresql
 sidebar:
   nav: "sidebar-category"

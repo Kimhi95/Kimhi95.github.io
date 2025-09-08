@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "popstate"
-categories: study
+categories: 공부
 tags: javascript
 sidebar:
   nav: "sidebar-category"
