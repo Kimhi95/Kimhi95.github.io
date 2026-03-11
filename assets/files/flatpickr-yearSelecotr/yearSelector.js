@@ -14,9 +14,8 @@
  */
 function yearSelectPlugin(pluginConfig) {
   const config = {
-    dateFormat: "Y",
-    altFormat: "Y",
-    theme: "light",
+    maxDate: null,
+    minDate: null,
     maxRangeLength: null,
     ...pluginConfig,
   };
@@ -118,7 +117,7 @@ function yearSelectPlugin(pluginConfig) {
             "selected",
             "range-start",
             "range-end",
-            "in-range"
+            "in-range",
           );
         });
 
@@ -140,14 +139,6 @@ function yearSelectPlugin(pluginConfig) {
         const startDate = new Date(minYear, 0, 1);
         const endDate = new Date(maxYear, 11, 31);
         fp.setDate([startDate, endDate], true);
-
-        // 입력 필드에 사용자 정의 형식으로 표시
-        if (fp.altInput) {
-          fp.altInput.value = `${minYear} ~ ${maxYear}`;
-        } else {
-          fp.input.value = `${minYear} ~ ${maxYear}`;
-        }
-
         fp.close();
       } else {
         // 새로운 선택 시작
@@ -156,7 +147,7 @@ function yearSelectPlugin(pluginConfig) {
             "selected",
             "range-start",
             "range-end",
-            "in-range"
+            "in-range",
           );
         });
         element.classList.add("selected", "range-start");
